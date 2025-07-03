@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cardápio Viena</title>
+  <link rel="stylesheet" href="stylecardapio.css">
+  <link rel="stylesheet" href="stylefeedback.css">
+</head>
+<body>
+    <header>
+        <h1 class="zoom-heading">Cardápio</h1>
+        <div class="navbar">
+          <a href="feedback.html" class="nav-item">Feedback</a>
+          <a href="contato.html" class="nav-item">Contato</a>
+          <img src="icone.png" class="nav-logo" alt="Ícone">
+        </div>
+      </header>
+      
+
+      <div class="font-btns">
+        <button id="increaseFontBtn">Aumentar Fonte</button>
+        <button id="decreaseFontBtn">Diminuir Fonte</button>
+      </div>
+      
+  <main>
+    <section class="gallery">
+        <article class="card">
+            <img src="https://imagem.band.com.br/25/f_274525.jpg" alt="Imagem 1">
+            <div class="card-content">
+              <h2>Pão doce</h2>
+              <p>Disponivel, 1 R$ por unidade</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://www.sabornamesa.com.br/media/k2/items/cache/f59fd3a46f2adbbd9dd6269010353971_XL.jpg" alt="Imagem 2">
+            <div class="card-content">
+              <h2>Pão de sal</h2>
+              <p>Disponivel, 6 pães = 2R$</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="data:image/jpeg;base64,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" alt="Imagem 1">
+            <div class="card-content">
+              <h2>Pão bolachão</h2>
+              <p>Indisponivel no momento
+                4 pães = 2R$
+              </p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://p2.trrsf.com/image/fget/cf/1200/900/middle/images.terra.com/2022/08/24/1337189444-torta-pudim-gelatina-com-morango.jpg" alt="Imagem 1">
+            <div class="card-content">
+              <h2>Torta de morango</h2>
+              <p>Disponivel, 7.50 R$ por fatia</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://imagem.band.com.br/10/f_340710.jpg" alt="Imagem 1">
+            <div class="card-content">
+              <h2>Broa de fubá</h2>
+              <p>Disponivel, 3.50 R$ por unidade</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://i.pinimg.com/736x/aa/a8/fe/aaa8fe17d40f1f4844db3aa51f2e3636.jpg" alt="Imagem 1">
+            <div class="card-content">
+              <h2>Suco de Maracujá</h2>
+              <p>Disponivel, 4.50 R$ copo de 350ml</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://zavod.com.br/wp-content/uploads/2021/06/Refrigerentes.jpg" alt="Imagem 1">
+            <div class="card-content">
+              <h2>Qualquer refrigerante (latinha)</h2>
+              <p>Disponivel, por apenas 5.00 R$</p>
+            </div>
+          </article>
+    </section>
+
+    
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Padaria Viena, a melhor padaria da região</p>
+  </footer>
+
+  <script src="scriptcardapio.js"></script>
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AV2</title>
+    
+    <link rel="stylesheet" href="stylecontato.css">
+    <script src="scriptcontato.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+</head>
+<body onload="alert('Bem-vindo(a) padaria Viena!')">
+    <header>
+        <div> <hr style="width: 300px;"></div>
+        <div>
+        <img src="imagens/logo.png" alt="logo" style="width: 100px;height: 100px; margin: 10px 0 0 0;">
+        </div>
+        <div> <hr style="width: 300px;"></div>
+    </header>
+
+
+    <div class="nav" style="margin-bottom: 30px;">
+        <div class="check">
+            <input type="checkbox" class="checkbox" id="chk" onclick="toggleDarkmode()" />
+            <label class="label" for="chk" id="label">
+              <i class="fas fa-moon"></i>
+              <i class="fas fa-sun"></i>
+              <div class="ball"></div>
+            </label>
+        </div>
+        <div class="conteudo">
+            
+        <a href="cardapio.html"  id="a1" onmouseenter="select1()" onmouseleave="select1out()" style="max-width: 5px;max-width: 2px;">|Cardápio|</a>
+        <a href="feedback.html" id="a2" onmouseenter="select2()" onmouseleave="select2out()" style="max-width: 5px;max-height: 2px;" >|Feedback|</a>
+        <a href="" style="color: rgb(200, 134, 42); margin-left: 20px ; ">●●●●●</a>
+       </div>
+    </div>
+
+    <main>   
+        
+
+
+
+
+
+       
+
+        <section class="fotomain">
+            <img src="imagens/fotomain.png" alt="fotomain" style="width: 1000px; height: 350px; border-radius: 5px; background-color: rgba(210, 161, 94, 0.9); padding: 0 75px 0 75px;">
+        </section>
+
+
+
+        <section class="perfil" id="perfil">  
+            
+            
+
+
+         <div class="mainperfil">
+            <div class="person">
+               <img src="imagens/foto1.png" alt="galva" class="foto" style="width: 130px; height: 130px;">
+               <h4>Lucas Galvão</h4>
+            </div>
+
+
+            <div>
+                   <p class="competencias">
+                   HTML5 e CSS3 <br>
+                   JavaScript <br>
+                   Inglês intermediário <br>
+                   IEFEx -Estágio Setorial de Gestão Financeira <br>
+                   IEFEx - Setorial de Gestão de Almoxarifado</p>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="mainperfil">
+         <div class="person">
+            <img src="imagens/foto2.png" alt="biel" class="foto" style="width: 130px; height: 130px;">
+            <h4>Gabriel Filipi</h4>
+          </div>
+         
+
+
+         <div>
+                <p class="competencias" style="width: 400px;">
+                    Java/Spring/JakartaEE <br>
+                    SEE <br>
+                    Inglês intermediário
+               </p>
+         </div>
+         </div>
+
+           
+        <div class="mainperfil">
+            <div class="person">
+                <img src="imagens/foto3.png" alt="urbas" class="foto" style="width: 130px; height: 130px;">
+                <h4>Lucas Urbano</h4>
+             </div>
+             
+    
+    
+             <div>
+                    <p class="competencias" style="width: 400px;">
+                        HTML/CSS <br>
+                        Python <br>
+                        Inglês intermediário <br>
+                        Secretaria do estado de Pernambuco - Monitor
+                        
+                        
+                   </p>
+             </div>
+             </div>
+
+
+       <div class="mainperfil">
+                <div class="person">
+                    <img src="imagens/foto4.png" alt="major" class="foto" style="width: 130px; height: 130px;">
+                    <h4>Júlio César</h4>
+                 </div>
+                 
+        
+        
+                 <div>
+                        <p class="competencias" style="width: 400px;">
+                            Python
+                       </p>
+                    </div>
+                
+             </div>
+
+             <div class="mainperfil">
+                <div class="person">
+                   <img src="imagens/foto5_resized.png" alt="teto" class="foto" style="width: 130px; height: 130px;">
+                   <h4>Thalys Alexandre</h4>
+                </div>
+    
+    
+                <div>
+                       <p class="competencias" style="width: 400px; padding-left: 10px;">
+                       Inglês intermediário <br>
+                       Python</p>
+                       
+                </div>
+            </div>
+
+        </section>
+      
+        
+
+
+
+        <section>
+            <p style="color: white; margin: 0 0 0 530px; font-family: 'Ephesis', cursive; font-size: 20pt;">"Tradição que Encanta, Sabor que Marca.."</p>
+        </section>
+ 
+
+
+
+
+
+
+
+
+
+        <section>
+            <img src="imagens/download.jpg" alt="parte1" class="prefooter" >
+      
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer> >> </footer>
+
+    
+              <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+</body>
+</html>
